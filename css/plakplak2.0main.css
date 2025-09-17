@@ -1,0 +1,31 @@
+/* main 2.0 *//* тут будем писать стилизацию для нашего основного кода */
+nav{
+    background: #f9f9f9;
+    width: 300px ;
+    /* ширина */
+    height: 90vh;
+    /* считается относитеьно высоты h, считается по ширине w */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: 45px;
+    left: 10px;
+    opacity: 0.2;
+    transition: all 0.5 ease;
+}
+
+nav:hover{
+    /* что будет происходить при наведении */
+    opacity: 1;
+    transition: all 0.5 ease;
+}
+nav a{
+    text-decoration: none;
+    /* дефолт ссылок это подчеркивание, их можно отключать */
+    font-size: 100%;
+    /* vw- вью корт - относительная величина экрана */
+    padding-bottom: 5px;
+    /* отступ */
+    word-wrap: break-word;
+    padding-left: 20px;
+}

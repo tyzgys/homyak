@@ -1,0 +1,5 @@
+/* тут мы подключаем все стилевые файлы (объединяем\соединяем) */
+@import "./reset.css";
+/* @import "./main.css"; */
+@import "./fonts.css";
+@import "./plakplak2.0main.css"
