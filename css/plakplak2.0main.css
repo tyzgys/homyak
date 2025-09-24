@@ -29,3 +29,29 @@ nav a{
     word-wrap: break-word;
     padding-left: 20px;
 }
+body{
+    background: rgb(169, 169, 255);
+}
+
+.бука{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    border: 4px solid #cfc7ff;
+}
+
+.мука{
+     width: 30%;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.citata{
+margin-left: 15%;
+margin-top: 2%;
+width: 60%;
+background: #d1e885;
+padding: 1%;
+/* внутренний отступ */
+border-left: 10px solid rgb(163, 151, 255);
+}
