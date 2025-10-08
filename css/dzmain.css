@@ -1,0 +1,85 @@
+.dz{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.ky{
+   
+    font-weight: 900;
+}
+.dy{
+    background: rgb(234, 234, 234);
+    width: 400px ;
+    /* ширина */
+    height: 5vh;
+    padding-bottom: 5px;
+    /* отступ */
+    word-wrap: break-word;
+    padding-left: 25px;
+}
+.dz{
+    background: rgb(234, 234, 234);
+    width: 500px ;
+    /* ширина */
+    height: 5vh;
+    padding-bottom: 5px;
+    /* отступ */
+    word-wrap: break-word;
+    padding-left: 10px;
+}
+nav{
+    background: #f9f9f9e0;
+    width: 300px ;
+    /* ширина */
+    height: 90vh;
+    /* считается относитеьно высоты h, считается по ширине w */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: 45px;
+    left: 1200px;
+    opacity: 0.2;
+    transition: all 0.5 ease;
+}
+
+nav:hover{
+    /* что будет происходить при наведении */
+    opacity: 1;
+    transition: all 0.5 ease;
+}
+nav a{
+    text-decoration: none;
+    /* дефолт ссылок это подчеркивание, их можно отключать */
+    font-size: 100%;
+    /* vw- вью корт - относительная величина экрана */
+    padding-bottom: 5px;
+    /* отступ */
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+.ty{
+    border-collapse: collapse; /* Объединяет двойные границы */
+      width: auto; /* Для заполнения ширины страницы */
+      border: 10px solid black; /* Применяет границу к ячейкам и заголовкам */
+      padding: 10px; /* Отступы внутри ячеек */
+      text-align: left; /* Выравнивание текста */
+      background-color: #f0f0f0;
+}
+.ry{
+        border-bottom: 1px solid rgb(0, 0, 0);
+}
+.u{
+     border-bottom: 1px solid rgb(0, 0, 0);
+     background-color: #9a9a9a;
+     text-align: center; /* Выравнивание текста */
+}
+.section_головы{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.головная_картинка{
+    width: 10%;
+    margin-top: 1%;
+}

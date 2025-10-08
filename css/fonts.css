@@ -1,1 +1,36 @@
 /* будем загружать шрифты */
+@font-face {
+    font-family: "Caveat-Bold";
+    src: url("../fonts/Caveat-Bold.ttf") format(truetype);
+    font-weight: 700 ;
+    font-style: normal;
+}
+/* пишем @font-face (1 вариант) */
+/* ставим в url ковычки и две точки, потом слеш и выбираем шрифты */
+/* ttf - это типо формат */
+/*  выбираем название шрифта (уникальное) */
+/* font-weight смотрим на сайте какая ширина у этого шрифта */
+/* font-weight и font-style это доп подсказки для проги */
+
+@font-face {
+    font-family: "Caveat-SemiBold";
+    src: url("../fonts/Caveat-SemiBold.ttf") format(truetype);
+    font-weight: 600 ;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "Caveat-Regular";
+    src: url("../fonts/Caveat-Regular.ttf") format(truetype);
+    font-weight: 400 ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Caveat-Medium";
+    src: url("../fonts/Caveat-Medium.ttf") format(truetype);
+    font-weight: 500 ;
+    font-style: normal;
+}
