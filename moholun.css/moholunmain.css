@@ -1,0 +1,278 @@
+body {
+  background-color: #1a062a;
+  background-image: 
+    url("../img.moholun/фон\ 1\ основной.png"),
+    url("../img.moholun/фон\ 2.png"),
+    url("../img.moholun/фон\ 3\ сверху.png");
+  background-position: center top, center center, center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* чтобы фон был статичным при прокрутке */
+  background-size: cover; /* все три заполняют экран */
+}
+
+
+
+.text1{
+   /* font-family: "Malahit" ;
+   color: #FBCC70; */
+   font-family: "Malahit";
+  color: #7BCCFF;
+  font-size: 28px;
+  margin-top: 36px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.text2{
+   font-family: "IBM Plex Serif" ;
+  max-width: 1100px;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 36px;
+}
+.text3{
+    max-width: 1000px;
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+.text4{
+   max-width: 1000px;
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 20px;
+  text-align: left;
+}
+.text5{
+     width: 900px;      /* ширина текстового блока */
+     height: 174px;
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: left;     
+}
+.text6{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+}
+.text7{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+}
+.text8{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.text9{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.text10{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+     margin-left: 10%;
+}
+.text11{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.text12{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.text13{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.text24{
+     font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+}
+.text25{
+     font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+}
+.text26{
+    font-family: "Malahit" ;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.znachok1{
+  border-radius: 20px;
+  padding: 4px 16px;
+  background-color: transparent;
+  display: inline-block;
+  border: 4px dashed #C07BFF;
+  /* background-image: url("../img.moholun/ramka.png"); */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.znachok2{
+  /* background-image: url("../img.moholun/ramochka.png"); */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 60%;
+  background-color: transparent;
+  display:inline-flex;
+}
+.znachok3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 24px;
+  background-color: transparent;
+  display:inline-flex;
+}
+.znachok4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+  background-color: transparent;
+  display:inline-flex;
+}
+
+.znachok5{
+  border: 3px solid #bf7bffc4;
+  border-radius: 20px;
+  padding: 8px 24px;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+}
+.znachok6{
+    border: 3px dashed 8, 16, 24, 32 #bf7bffc4;
+  border-radius: 20px;
+  padding: 8px 24px;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+}
+.znachok7{
+  border: 3px solid #C07BFF;
+  border-radius: 20px;
+  padding: 8px 24px;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+
+
+
+.name1{
+font-family: "Malahit" ;
+ color: #c07bff;
+ font-size: 32px;         
+ margin-top: -10;
+ padding: 1px 2px;
+}
+ 
+.name2{
+    color: #c07bff;
+    font-size: 146px;         
+    margin-top: -10;
+    font-family: "Malahit" ;
+}
+.name3{
+    color: #c07bff;
+    font-size: 146px;         
+    margin-top: -10;
+    font-family: "Malahit" ;
+}
+
+
+
+
+
+
+.picturelogo{
+margin-bottom: -250px
+}
+.picturelogo1{
+width: 410px; 
+}
+.picturelogo2{
+    width: 410px;
+    position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* чтобы текст был поверх */
+}
+.picture1{
+ width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* чтобы текст был поверх */
+}
+.picture2{
+  width: 100%;
+  margin-top: 15%;
+}
+.picture02{
+    width: 80%;
+}
+
+
+
+
+
+
+
+.slide1{
+    position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.slide2{
+min-height: 100vh;               /* на всю высоту экрана */
+  display: flex;                   /* выравнивает содержимое */
+  flex-direction: column;          /* всё в колонку */
+  justify-content: center;         /* центр по вертикали */
+  align-items: center;             /* центр по горизонтали */
+  text-align: center;
+  padding: 40px;                   /* небольшие внутренние отступы */
+  margin-top: 5%;
+}
+.slide3{
+
+}
+.slide4{
+   width: 80%;
+   height: 400px;
+   background-image: url("../img.moholun/3\ рамка.png");
+   background-size: 100%; /* или contain */
+   background-repeat: no-repeat;
+   background-position: center;
+}
